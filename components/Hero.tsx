@@ -45,7 +45,7 @@ const Hero = () => {
             words="Transforming Concepts into Seamless User Experiences"
           />
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'm Siddharth, a passionate web developer.
+            Hi, I&apos;m Siddharth, a passionate web developer.
           </p>
 
           <a href="#about">
