@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Portfolio Website
+
+This is a modern, responsive portfolio website built using **Next.js 15**, **TypeScript**, and **Tailwind CSS**. It features a clean and interactive user interface, enhanced by **shadcn** and **aceternity** components for a polished user experience.
+
+## Tech Stack
+
+- **Framework**: Next.js 15
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn, aceternity
+- **3D Visualization**: react-three/fiber, react-three/drei, three, three-globe
+
+## Features
+
+- Modern, minimalistic and responsive design
+- Smooth animations with Framer Motion
+- 3D elements using Three.js and React Three Fiber
+- Custom UI components with shadcn and aceternity
+- Dark mode support with next-themes
+
+## Key Dependencies
+
+- `@react-three/drei`: Provides pre-built helpers and abstractions for working with Three.js in React.
+- `@react-three/fiber`: A React renderer for Three.js, enabling seamless integration of 3D scenes.
+- `@sentry/nextjs`: Used for error tracking and performance monitoring.
+- `@types/three`: TypeScript type definitions for Three.js to enable type-checking and autocompletion.
+- `clsx`: Utility to conditionally join classNames, useful for managing dynamic class applications.
+- `framer-motion`: For creating smooth and advanced animations in React.
+- `mini-svg-data-uri`: Converts SVGs to data URIs, optimizing SVG handling.
+- `motion`: Provides additional motion capabilities for animations (related to framer-motion).
+- `next`: Core Next.js framework for server-side rendering and static site generation.
+- `next-themes`: Enables dynamic theme switching, including dark mode support.
+- `react`: Core React library for building UI components.
+- `react-dom`: React package for DOM-specific rendering.
+- `react-icons`: Collection of popular icon sets in React component form.
+- `react-lottie`: For integrating Lottie animations (JSON-based vector animations).
+- `tailwind-merge`: Optimizes Tailwind CSS class handling by intelligently merging them.
+- `tailwindcss-animate`: Provides additional animation utilities compatible with Tailwind CSS.
+- `three`: Main Three.js library for building and rendering 3D scenes.
+- `three-globe`: A library to render interactive 3D globes using Three.js.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    ```bash
+    git clone <repository-url>
+    cd portfolio-website
+    ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Run the development server:
 
-## Learn More
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## License
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open-source and available under the [MIT License](LICENSE).
