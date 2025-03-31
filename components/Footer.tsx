@@ -2,12 +2,14 @@
 
 import React from "react";
 import "@/public/footer-grid.svg";
+import Image from "next/image";
 import MagicButton from "./ui/MagicButton";
 import { FaEnvelope } from "react-icons/fa";
 import { socialMedia } from "@/data";
 import animationData from "@/data/confetti.json";
 import dynamic from "next/dynamic";
-const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
+
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 const Footer = () => {
   const [copied, setCopied] = React.useState(false);
@@ -30,15 +32,9 @@ const Footer = () => {
         </p>
         <div className={`absolute -bottom-5 right-5`}>
           <Lottie
-            options={{
-              loop: copied,
-              autoplay: copied,
-              animationData,
-              rendererSettings: {
-                preserveAspectRatio: "xMidYmid slice",
-              },
-            }}
-          />
+            loop={copied}
+            
+            animationData={animationData} />
         </div>
         <MagicButton
           title={copied ? "Copied!" : "Copy my email"}
@@ -60,7 +56,7 @@ const Footer = () => {
               className="ww-10 h-10 cursor-pointer flex items-center justify-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
               <a href={profile.link} target="_blank" rel="noopener noreferrer">
-                <img
+                <Image
                   src={profile.img}
                   alt={profile.title}
                   width={20}
