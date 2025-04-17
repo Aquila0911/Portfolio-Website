@@ -121,7 +121,7 @@ export const testimonials = [
   },
   {
     quote:
-      "Collaborating with Siddharth was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Siddharth's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Siddharth is the ideal partner.",
+      "Siddharth was an invaluable asset to our team during their time as a Full Stack Developer Intern. He consistently impressed us with their exceptional work ethic, passion for learning and unwavering dedication. He tackled a challenging project with remarkable skill and enthusiasm, demonstrating a strong aptitude for both front-end and back-end development.Beyond their technical abilities, Siddharth is a highly motivated and proactive individual. They were always eager to take on new challenges and also demonstrated a remarkable ability to collaborate effectively with other team members.",
     name: "Tamal Sen",
     title: "Co-Founder of Theta One Software Developers",
     image: "testimonial-tamal.svg",
